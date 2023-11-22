@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct GenreSectionView: View {
-    var genreSection: GenreSection
+    let genreSection: GenreSection
+    @Binding var selectedBookId: Int
+    @Binding var isLinkActive: Bool
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -20,10 +22,14 @@ struct GenreSectionView: View {
                 HStack {
                     ForEach(genreSection.books) { book in
                         BookView(book: book)
-                            .frame(width: 130, height: 210)
+                            .onTapGesture {
+                                self.selectedBookId = book.id
+                                self.isLinkActive = true
+                            }
                     }
                 }
             }
         }
     }
 }
+

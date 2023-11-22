@@ -33,6 +33,8 @@
 		F2B7890E2B0CA2DB00D81443 /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7890D2B0CA2DB00D81443 /* MainPageViewModel.swift */; };
 		F2B789112B0CF14200D81443 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B789102B0CF14200D81443 /* BookView.swift */; };
 		F2B789132B0CF16E00D81443 /* GenreSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B789122B0CF16E00D81443 /* GenreSectionView.swift */; };
+		F2B789172B0D238B00D81443 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B789162B0D238B00D81443 /* DetailsPage.swift */; };
+		F2B789332B0E027A00D81443 /* CaruselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B789322B0E027A00D81443 /* CaruselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		F2B7890D2B0CA2DB00D81443 /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
 		F2B789102B0CF14200D81443 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		F2B789122B0CF16E00D81443 /* GenreSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSectionView.swift; sourceTree = "<group>"; };
+		F2B789162B0D238B00D81443 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
+		F2B789322B0E027A00D81443 /* CaruselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaruselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				F2B789152B0CFA8300D81443 /* MainScene */,
+				F2B789162B0D238B00D81443 /* DetailsPage.swift */,
+				F2B789322B0E027A00D81443 /* CaruselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,11 +276,13 @@
 				F2B7890C2B0C985D00D81443 /* NetworkManager.swift in Sources */,
 				F2B789032B0C975700D81443 /* BannerView.swift in Sources */,
 				F2B789132B0CF16E00D81443 /* GenreSectionView.swift in Sources */,
+				F2B789172B0D238B00D81443 /* DetailsPage.swift in Sources */,
 				F2B7890E2B0CA2DB00D81443 /* MainPageViewModel.swift in Sources */,
 				F2B789062B0C97FF00D81443 /* Book.swift in Sources */,
 				F2B789082B0C982000D81443 /* TopBannerSlide.swift in Sources */,
 				F2B788CE2B0C8B8300D81443 /* AppDelegate.swift in Sources */,
 				F2B7890A2B0C983C00D81443 /* RemoteConfigData.swift in Sources */,
+				F2B789332B0E027A00D81443 /* CaruselView.swift in Sources */,
 				F2B788D02B0C8B8300D81443 /* SceneDelegate.swift in Sources */,
 				F2B789112B0CF14200D81443 /* BookView.swift in Sources */,
 				F2B788E52B0C8C9300D81443 /* MainPage.swift in Sources */,

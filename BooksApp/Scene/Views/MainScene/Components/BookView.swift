@@ -11,7 +11,7 @@ struct BookView: View {
     let book: Book
 
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             if let url = URL(string: book.cover_url) {
                 AsyncImage(url: url) { image in
                     image.resizable()
@@ -25,9 +25,11 @@ struct BookView: View {
             Text(book.name)
                 .font(.headline)
                 .lineLimit(1)
-                .frame(alignment: .leading)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(.horizontal)
     }
 }
+
 
